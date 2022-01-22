@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="effects.css">
+    </head>
+    <main>
+
+    </main>
+    <body>
+        <button id="newBookBtn">New Book</button>
+        
+        <div id = "booksGrid">
+
+        </div>
+        
+
+        <div id = "newBookModal" class = "modal">
+            <form id = "bookForm" class = "modal-content">
+            <input id = "title" type = text placeholder="Title" required>
+            <input id = "author" type = text placeholder="Author" required>
+            <input id = "pages" type = number min = "1" required>
+            <input id = "read" type = checkbox>
+            <button id="submit" type="button" value="Submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+
+    </body>
+    <script src = "test.js"></script>
+    </html>
